@@ -1,0 +1,97 @@
+<mvc:View controllerName="com.example.salesorderdemo.controller.Main"
+	height="100%"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:m="sap.m"
+  xmlns:t="sap.ui.table"
+	xmlns:core="sap.ui.core"
+	xmlns:layout="sap.ui.layout"
+	xmlns:semantic="sap.f.semantic">
+
+	<semantic:SemanticPage
+		id="mySemanticPage"
+		headerPinnable="true"
+		toggleHeaderOnTitleClick="true"
+		preserveHeaderStateOnScroll="false"
+		titleAreaShrinkRatio="1:1.6:1.6"
+		showFooter="{app>showFooter}">
+
+		
+		<semantic:titleHeading>
+			<Title text="Sales Order Import " />
+		</semantic:titleHeading>
+
+		
+		<semantic:headerContent>
+			<layout:HorizontalLayout >
+			<HBox >
+
+					<SearchField width="500px" press=".onSearch"  />
+				</HBox>
+			</layout:HorizontalLayout>
+		</semantic:headerContent>
+
+		
+		<semantic:content>
+			
+				<t:TreeTable    
+                    id="TreeTableBasic"
+                    rows="{path:'app>/REQ_SALESDATA/sales'}"
+                    
+                    enableSelectAll="false"
+                    ariaLabelledBy="title">
+                
+                <t:columns>
+                    <t:Column width="13rem">
+                        <m:Label text="Sales Order"/>
+                        <t:template>
+                            <m:Text text="{app>salesOrder}" wrapping="false" />
+                        </t:template>
+                    </t:Column>
+                    <t:Column width="9rem">
+                        <m:Label text="Creation Status"/>
+                        <t:template>
+                            <m:Text text="{app>creationStatus}" wrapping="false" />
+                        </t:template>
+                    </t:Column>
+                    <t:Column width="11rem">
+                        <m:Label text="Log"/>
+                        <t:template>
+                            <m:Text text="{}" wrapping="false" />
+                        </t:template>
+                    </t:Column>
+					<t:Column width="13rem">
+                        <m:Label text="Sales Order Type"/>
+                        <t:template>
+                            <m:Text text="{}" wrapping="false" />
+                        </t:template>
+                    </t:Column>
+                    <t:Column width="9rem">
+                        <m:Label text="Sales Order ()"/>
+                        <t:template>
+                            <m:Text text="{}" wrapping="false" />
+                        </t:template>
+                    </t:Column>
+					<t:Column width="9rem">
+                        <m:Label text="Created By"/>
+                        <t:template>
+                            <m:Text text="{}" wrapping="false" />
+                        </t:template>
+                    </t:Column>
+                </t:columns>
+            </t:TreeTable>
+
+			
+		</semantic:content>
+
+		<semantic:titleMainAction>
+			<semantic:TitleMainAction text="GO" />
+		</semantic:titleMainAction>
+
+		<semantic:titleCustomTextActions>
+			<Button text="Adapt Filters" press="adaptFilters"/>
+		</semantic:titleCustomTextActions>
+		
+
+	</semantic:SemanticPage>
+</mvc:View>

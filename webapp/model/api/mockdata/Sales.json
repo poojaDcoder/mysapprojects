@@ -1,0 +1,50 @@
+{
+      "sales": {
+        "categories": [
+          {"salesOrder": "Imported On: 09/22/2021", "categories": [
+            {"salesOrder":"Import Name: F4298_Text_Pricing_CE2108_20210922231657", "categories": [
+              
+                {"salesOrder": "23433", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"1", "createdBy":"CB9980000150(Example Internal...)" },
+                {"salesOrder": "23434", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"2", "createdBy":"CB9980000150(Example Internal...)" }
+              
+            ]}
+            
+          ]},{"salesOrder": "Imported On: 09/16/2021", "categories": [
+            {"salesOrder":"Import Name: F4297_Text_Pricing_CE2108_20210916231657", "categories": [
+              
+                {"salesOrder": "23431", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"1", "createdBy":"CB9980000150(Example Internal...)" },
+                {"salesOrder": "23432", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"2", "createdBy":"CB9980000150(Example Internal...)" }
+              
+            ]}
+            
+          ]},
+          {"salesOrder": "Imported On: 09/12/2021", "categories": [
+            {"salesOrder":"Import Name: F4296_Text_Pricing_CE2108_20210912231657", "categories": [
+              
+                {"salesOrder": "23429", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"1", "createdBy":"CB9980000150(Example Internal...)" },
+                {"salesOrder": "23430", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"1", "createdBy":"CB9980000150(Example Internal...)" }
+              
+            ]}
+            
+          ]},
+          {"salesOrder": "Imported On: 09/10/2021", "categories": [
+            {"salesOrder":"Import Name: F4295_Text_Pricing_CE2108_20210910231657", "categories": [
+              
+                {"salesOrder": "23427", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"1", "createdBy":"CB9980000150(Example Internal...)" },
+                {"salesOrder": "23428", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"2", "createdBy":"CB9980000150(Example Internal...)" }
+              
+            ]}
+            
+          ]},
+          {"salesOrder": "Imported On: 09/08/2021", "categories": [
+            {"salesOrder":"Import Name: F4294_Text_Pricing_CE2108_20210908231657", "categories": [
+              
+                {"salesOrder": "23425", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"1", "createdBy":"CB9980000150(Example Internal...)" },
+                {"salesOrder": "23426", "creationStatus": "Created", "log": "sap-icon://SAP-icons-TNT/exceptions", "soType": "OR (Standard Order)", "tempId":"2", "createdBy":"CB9980000150(Example Internal...)" }
+              
+            ]}
+            
+          ]}
+          ]}
+  
+      }
